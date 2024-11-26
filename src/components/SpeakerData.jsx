@@ -28,12 +28,12 @@ const speakers = [
     id: 22,
     name: "Prof. Siddhartha Mukhopadhyay",
     designation: "IIT Kharagpur",
-    title: " OUR KEYNOTE SPEAKERS",
+    title: " KEYNOTE SPEAKERS",
     image: sidd,
     description: (
       <>
         
-        <p>Industry Keynote Speaker</p>
+        
         
       </>
     ),
@@ -42,12 +42,12 @@ const speakers = [
     id: 23,
     name: "Mr. Gautam Ray",
     designation: "President (Corporate), RPSG Group",
-    title: " OUR KEYNOTE SPEAKERS",
+    title: " KEYNOTE SPEAKERS",
     image: gautam,
     description: (
       <>
         
-        <p>Industry Keynote Speaker</p>
+       
         
       </>
     ),

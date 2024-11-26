@@ -23,7 +23,7 @@ const panelData = [
   {
     id: 3,
     name: "Dr. Mita Tarafder",
-    title: "Chief Executive, Relearn Foundation",
+    title: "Former Chief Scientist, CSIR- NML, Jamshedpur",
     image: sp5
   },
   {

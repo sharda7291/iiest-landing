@@ -21,6 +21,7 @@ import trbalaji from '../assets/img/logos/photos_speakers/trbalaji.png'
 import atreyee from '../assets/img/logos/photos_speakers/atreyee.png'
 import sagar from '../assets/img/logos/photos_speakers/sagar.png'
 import sidd from '../assets/img/logos/siddhartha.png'
+import gautam from '../assets/img/logos/photos_speakers/gautam.png'
 
 const speakers = [
   {
@@ -29,6 +30,20 @@ const speakers = [
     designation: "IIT Kharagpur",
     title: " OUR KEYNOTE SPEAKERS",
     image: sidd,
+    description: (
+      <>
+        
+        <p>Industry Keynote Speaker</p>
+        
+      </>
+    ),
+  },
+  {
+    id: 23,
+    name: "Mr. Gautam Ray",
+    designation: "President (Corporate), RPSG Group",
+    title: " OUR KEYNOTE SPEAKERS",
+    image: gautam,
     description: (
       <>
         

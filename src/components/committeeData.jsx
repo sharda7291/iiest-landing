@@ -3,10 +3,7 @@ const committeeData = {
       name: "Prof. V M S R Murthy",
       designation: "Director, IIEST Shibpur",
     },
-    technicalCommittee: {
-      name: "Prof. Konika Das Bhattacharya",
-      designation: "Professor, EE, IIEST Shibpur",
-    },
+   
     patrons: [
       {
         name: "Prof. Anirban Gupta",
@@ -21,26 +18,7 @@ const committeeData = {
         designation: "Dean – Academic, IIEST Shibpur",
       },
     ],
-    financeCommittee: [
-      {
-        name: "Dr. Amal Barman*",
-        designation: "Associate Professor, EE, IIEST Shibpur",
-      },
-      {
-        name: "Dr. Syed Abdullah Qasim",
-        designation: "Assistant Professor, EE, IIEST Shibpur",
-      },
-    ],
-    registrationCommittee: [
-      {
-        name: "Prof. Aparajita Sengupta*",
-        designation: "Professor, EE, IIEST Shibpur",
-      },
-      {
-        name: "Dr. Roshni Maiti",
-        designation: "Assistant Professor, EE, IIEST Shibpur",
-      },
-    ],
+   
     programChair: [
       {
         name: "Prof. Anindita Sengupta",
@@ -67,6 +45,7 @@ const committeeData = {
         designation: "Assistant Professor, EE, IIEST Shibpur",
       },
     ],
+   
     advisoryCommittee: [
       {
         name: "Prof. Chandan Kumar Chanda*",
@@ -87,6 +66,30 @@ const committeeData = {
       {
         name: "Dr. Paramita Chattopadhyay",
         designation: "Associate Professor, EE, IIEST Shibpur",
+      },
+    ],
+    technicalCommittee: {
+      name: "Prof. Konika Das Bhattacharya",
+      designation: "Professor, EE, IIEST Shibpur",
+    },
+    financeCommittee: [
+      {
+        name: "Dr. Amal Barman*",
+        designation: "Associate Professor, EE, IIEST Shibpur",
+      },
+      {
+        name: "Dr. Syed Abdullah Qasim",
+        designation: "Assistant Professor, EE, IIEST Shibpur",
+      },
+    ],
+    registrationCommittee: [
+      {
+        name: "Prof. Aparajita Sengupta*",
+        designation: "Professor, EE, IIEST Shibpur",
+      },
+      {
+        name: "Dr. Roshni Maiti",
+        designation: "Assistant Professor, EE, IIEST Shibpur",
       },
     ],
     logisticsCommittee: [
@@ -115,6 +118,29 @@ const committeeData = {
         designation: "Assistant Professor, EE, IIEST Shibpur",
       },
     ],
+    hospitalityCommittee:[
+      {
+        name: "Prof. Prasid Syam*" ,
+        designation: "Professor, EE, IIEST Shibpur"
+      },
+      {
+        name:"Prof. Debjani Ganguly",
+        designation:"Associate Professor,EE,IIEST Shibpur",
+      },
+      {
+        name:"Dr. Kaushik Mukherjee",
+        designation:"Associate Professor,EE,IIEST Shibpur",
+      },
+      {
+        name:"Dr. Abhinandan De",
+        designation:"Associate Professor,EE,IIEST Shibpur",
+      },
+      {
+        name:"Dr. Reetam Mondal",
+        designation:"Associate Professor,EE,IIEST Shibpur",
+      },
+      
+    ]
   };
   
   export default committeeData;

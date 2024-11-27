@@ -20,13 +20,6 @@ function Committee() {
             </td>
           </tr>
           <tr>
-            <th>Technical Committee</th>
-            <td>
-              {committeeData.technicalCommittee.name} <br />
-              ({committeeData.technicalCommittee.designation})
-            </td>
-          </tr>
-          <tr>
             <th>Patrons</th>
             <td>
               {committeeData.patrons.map((patron, index) => (
@@ -38,34 +31,12 @@ function Committee() {
             </td>
           </tr>
           <tr>
-            <th>Finance Committee</th>
-            <td>
-              {committeeData.financeCommittee.map((member, index) => (
-                <React.Fragment key={index}>
-                  {member.name} <br />
-                  ({member.designation}) <br />
-                </React.Fragment>
-              ))}
-            </td>
-          </tr>
-          <tr>
-            <th>Registration Committee</th>
-            <td>
-              {committeeData.registrationCommittee.map((member, index) => (
-                <React.Fragment key={index}>
-                  {member.name} <br />
-                  ({member.designation}) <br />
-                </React.Fragment>
-              ))}
-            </td>
-          </tr>
-          <tr>
             <th>Program Chair</th>
             <td>
-              {committeeData.programChair.map((chair, index) => (
+              {committeeData.programChair.map((pchair, index) => (
                 <React.Fragment key={index}>
-                  {chair.name} <br />
-                  ({chair.designation}) <br />
+                  {pchair.name} <br />
+                  ({pchair.designation}) <br />
                 </React.Fragment>
               ))}
             </td>
@@ -104,12 +75,53 @@ function Committee() {
             </td>
           </tr>
           <tr>
+            <th>Technical Committee</th>
+            <td>
+              {committeeData.technicalCommittee.name} <br />
+              ({committeeData.technicalCommittee.designation})
+            </td>
+          </tr>
+         
+          <tr>
+            <th>Finance Committee</th>
+            <td>
+              {committeeData.financeCommittee.map((member, index) => (
+                <React.Fragment key={index}>
+                  {member.name} <br />
+                  ({member.designation}) <br />
+                </React.Fragment>
+              ))}
+            </td>
+          </tr>
+          <tr>
+            <th>Registration Committee</th>
+            <td>
+              {committeeData.registrationCommittee.map((registration, index) => (
+                <React.Fragment key={index}>
+                  {registration.name} <br />
+                  ({registration.designation}) <br />
+                </React.Fragment>
+              ))}
+            </td>
+          </tr>
+          <tr>
             <th>Logistics Committee</th>
             <td>
               {committeeData.logisticsCommittee.map((logistic, index) => (
                 <React.Fragment key={index}>
                   {logistic.name} <br />
                   ({logistic.designation}) <br />
+                </React.Fragment>
+              ))}
+            </td>
+          </tr>
+          <tr>
+            <th>Hospitality Committee</th>
+            <td>
+              {committeeData.hospitalityCommittee.map((hospitality, index) => (
+                <React.Fragment key={index}>
+                  {hospitality.name} <br />
+                  ({hospitality.designation}) <br />
                 </React.Fragment>
               ))}
             </td>

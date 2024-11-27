@@ -5,6 +5,7 @@ import logo2 from '../assets/img/logos/logo2.png';
 import logo3 from '../assets/img/logos/logo3.png';
 import logo4 from '../assets/img/logos/logo4.png';
 import { Link } from 'react-router-dom';
+import File from '../assets/img/activites/Brochure_AINxtGenEE2024.pdf' 
 
 function Hero() {
   return (
@@ -30,7 +31,7 @@ function Hero() {
                 <div className="hero-buttons">
                   {/* Corrected the href path */}
                   <a
-                    href="/assets/img/activites/Brochure_AINxtGenEE2024.pdf"
+                    href={File}
                     className="ai-button-primary me-0 me-sm-2 mx-1"
                     target="_blank"
                     rel="noopener noreferrer"
